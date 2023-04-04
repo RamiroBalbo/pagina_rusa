@@ -1,7 +1,128 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:'Open Sans', sans-serif;
 }
-img{
-    width:100px;
+body{
+    background-color: rgb(233, 231, 218);
+}
+header{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: #393E44;
+}
+main{
+    display: flex;
+    justify-content: center;
+    color: #393E44;
+}
+.imagen1{
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    bottom: 0;
+}
+.imagen4{
+    width: 3rem
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 2rem);
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+}
+.div_f1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 1.5rem;
+    color: #393E44;
+}
+.div_f2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 1.5rem;
+    color: rgb(233, 231, 218);
+}
+.div_f3{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 1.5rem;
+    color: #393E44;
+}
+.div_m1{
+    display: flex;
+    align-items: center;
+    background-color: #D8D6CC;
+    z-index: -1;
+    position: absolute;
+    right: 45%;
+    top: 15%;
+    padding: 30px 120px 30px 30px;
+}
+.div_m2{
+    display: flex;
+    justify-content: center;
+    background-color: #393E44;
+    color: #D8D6CC;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 45%;
+    padding: 25px 50px;
+}
+.div_m2 p{
+    width: 40%;
+}
+.div_m3{
+    background-color: #D8D6CC;
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+.div_m31 p{
+    font-size: 45px;
+    margin-right:50px;
+    color: rgb(233,231,218); 
+}
+.div_m32{
+    justify-content: center;
+    position: absolute;
+    right: 50%;
+    top: 40%;
+}
+.div_m4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #393E44;
+    color: #D8D6CC;
+    position: absolute;
+    z-index: -1;
+    position: absolute;
+    left: 55%;
+    bottom: 20%;
+    padding: 30px 30px 30px 120px;
+}
+.imagen2{
+    width: 1.8rem;
+    margin-right: 0.5rem;
+}
+.imagen3{
+    width: 1.8rem;
+    margin-left: 0.5rem;
+    color:#D8D6CC;
 }
